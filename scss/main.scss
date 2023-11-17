@@ -1,8 +1,5 @@
-//Bootstrap 5 Source File
-@import 'Bootstrap5/Bootstrap5';
-
 //base
-//@import "Global/variables";
+@import 'Global/variables';
 //@import "Global/mixins";
 //@import "Global/reset";
 //@import "Global/base";
@@ -21,3 +18,6 @@
 
 //media queries
 //@import "Layout/mobile";
+
+//Bootstrap 5 Source Files
+@import '../node_modules/bootstrap/scss/bootstrap';
