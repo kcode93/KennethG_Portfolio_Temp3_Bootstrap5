@@ -1,23 +1,24 @@
-//base
+//Variables
 @import 'Global/variables';
+
+//Bootstrap 5 Source Files
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//Global
 //@import "Global/mixins";
-//@import "Global/reset";
 //@import "Global/base";
 
-//layout
+//Layout
 //@import "Layout/header";
 //@import "Layout/nav";
 //@import "Layout/sections";
 //@import "Layout/projects_grid";
 //@import "Layout/footer";
 
-//modules
+//Modules
 //@import "Modules/typography";
 //@import "Modules/buttons";
 //@import "Modules/utilities";
 
-//media queries
+//Media queries
 //@import "Layout/mobile";
-
-//Bootstrap 5 Source Files
-@import '../node_modules/bootstrap/scss/bootstrap';
