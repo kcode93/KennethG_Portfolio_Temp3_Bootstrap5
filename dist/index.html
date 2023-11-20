@@ -4,8 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<meta name="description" content="Description-Here" />
-		<meta name="keywords" content="Keywords-Here" />
+		<meta name="description" content="Portfolio with Bootstrap 5" />
+		<meta
+			name="keywords"
+			content="Bootstrap, portfolio, website, web development"
+		/>
 		<meta name="author" content="Kenneth Garcia" />
 		<!-- Font Awesome CDN -->
 		<link
@@ -17,13 +20,60 @@
 		/>
 		<!--Custom style sheets-->
 		<link rel="stylesheet" href="./resources/css/main.css" type="text/css" />
-		<title>Title-Here</title>
+		<title>Kenneth Garcia | Home</title>
 	</head>
 	<body>
-		<h1>Hello World!</h1>
-		<div class="bg-primary">
-			<p class="text-secondary">Hola que hace</p>
-		</div>
+		<nav id="main-navbar" class="navbar navbar-expand-sm bg-grad">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img
+						id="nav-logo"
+						src="./resources/img/KG_LOGO_DARK-FILL.svg"
+						alt="Kcode93 logo"
+					/>
+				</a>
+				<button
+					class="navbar-toggler d-lg-none"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapsibleNavId"
+					aria-controls="collapsibleNavId"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="collapsibleNavId"
+				>
+					<ul class="navbar-nav mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#" aria-current="page">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Faq</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+					<button type="button" class="rounded-pill btn-rounded">
+						+15438957414
+						<span id="icon">HEllo </span>
+					</button>
+				</div>
+			</div>
+		</nav>
 
 		<!-- Bootstrap JS & Popper JS -->
 		<script

@@ -1,0 +1,13 @@
+.btn-rounded {
+	position: relative;
+	padding: 0.8rem 1.5rem;
+	font-weight: 500;
+	margin: 0;
+
+	#icon {
+		position: absolute;
+		background-color: $primary;
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}
