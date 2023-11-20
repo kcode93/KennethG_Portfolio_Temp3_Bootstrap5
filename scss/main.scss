@@ -5,19 +5,19 @@
 @import '../node_modules/bootstrap/scss/bootstrap';
 
 //Global
-//@import "Global/mixins";
-//@import "Global/base";
+@import 'Global/mixins';
 
 //Layout
-//@import "Layout/header";
-//@import "Layout/nav";
-//@import "Layout/sections";
-//@import "Layout/projects_grid";
-//@import "Layout/footer";
+@import 'Layout/header';
+@import 'Layout/nav';
+@import 'Layout/sections';
+@import 'Layout/portfolio';
+@import 'Layout/contact-form';
+@import 'Layout/footer';
 
 //Modules
-//@import "Modules/typography";
-//@import "Modules/buttons";
+@import 'Modules/typography';
+@import 'Modules/buttons';
 //@import "Modules/utilities";
 
 //Media queries
