@@ -1,6 +1,29 @@
 @use '../main.scss' as *;
 
 #main-navbar {
+	@include media-breakpoint-down(sm) {
+		.container {
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		ul {
+			margin-top: 0;
+			padding-top: 0;
+			li {
+				@include gradient-background;
+				border-bottom: 1px solid $white;
+				padding: 0.2rem 0.5rem;
+				margin-top: 0;
+				width: 100%;
+
+				&:hover {
+					background-color: darken($color: #000000, $amount: 5%);
+				}
+			}
+		}
+	}
+
 	height: 6rem;
 	&.bg-grad {
 		@include gradient-background;

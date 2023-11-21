@@ -9291,6 +9291,23 @@ textarea.form-control-lg {
 @use '../main.scss' as *;
 #main-navbar {
   height: 6rem; }
+  @media (max-width: 575.98px) {
+    #main-navbar .container {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    #main-navbar ul {
+      margin-top: 0;
+      padding-top: 0; }
+      #main-navbar ul li {
+        background: #0e1120;
+        background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%);
+        border-bottom: 1px solid #fff;
+        padding: 0.2rem 0.5rem;
+        margin-top: 0;
+        width: 100%; }
+        #main-navbar ul li:hover {
+          background-color: black; } }
   #main-navbar.bg-grad {
     background: #0e1120;
     background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%); }
@@ -9306,11 +9323,29 @@ textarea.form-control-lg {
 
 .btn-rounded {
   position: relative;
-  padding: 0.8rem 1.5rem;
-  font-weight: 500;
-  margin: 0; }
+  padding: 0.9rem 4.375rem 0.9rem 0.2rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  width: 12rem;
+  transition: all 15ms; }
   .btn-rounded #icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     background-color: #1f64c1;
     width: 2.5rem;
-    height: 2.5rem; }
+    height: 2.5rem;
+    top: 14%;
+    right: 4%;
+    border-radius: 50%; }
+    .btn-rounded #icon i {
+      color: #fff; }
+  .btn-rounded:hover {
+    background: #0e1120;
+    background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%);
+    color: #fff;
+    font-weight: bold; }
+    .btn-rounded:hover #icon {
+      background-color: #149ea2; }

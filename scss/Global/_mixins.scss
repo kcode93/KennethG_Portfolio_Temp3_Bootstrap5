@@ -7,3 +7,18 @@
 		$secondary 71%
 	);
 }
+
+@mixin transition-All {
+	transition: all 15ms;
+}
+
+@function set-font-color($background-color) {
+	$dynamic-color: #eee;
+	@if (blackness($background-color) >=50) {
+		$dynamic-color: $white;
+	} @else {
+		$dynamic-color: $black;
+	}
+
+	@return $dynamic-color;
+}

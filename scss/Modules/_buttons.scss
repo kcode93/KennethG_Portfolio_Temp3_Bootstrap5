@@ -1,13 +1,36 @@
 .btn-rounded {
 	position: relative;
-	padding: 0.8rem 1.5rem;
-	font-weight: 500;
+	padding: 0.9rem 4.375rem 0.9rem 0.2rem;
+	font-weight: 700;
 	margin: 0;
+	border: 0.1rem solid rgba($white, 0.6);
+	width: 12rem;
+	@include transition-All;
 
 	#icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		position: absolute;
 		background-color: $primary;
 		width: 2.5rem;
 		height: 2.5rem;
+		top: 14%;
+		right: 4%;
+		border-radius: 50%;
+
+		i {
+			color: $white;
+		}
+	}
+
+	&:hover {
+		@include gradient-background;
+		color: $white;
+		font-weight: bold;
+
+		#icon {
+			background-color: $secondary;
+		}
 	}
 }
