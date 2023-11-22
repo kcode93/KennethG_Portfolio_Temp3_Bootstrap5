@@ -1,4 +1,8 @@
 .btn-rounded {
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+
 	position: relative;
 	padding: 0.9rem 4.375rem 0.9rem 0.2rem;
 	font-weight: 700;
@@ -18,6 +22,7 @@
 		top: 14%;
 		right: 4%;
 		border-radius: 50%;
+		@include transition-All;
 
 		i {
 			color: $white;

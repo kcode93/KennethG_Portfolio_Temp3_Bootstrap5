@@ -8,8 +8,18 @@
 	);
 }
 
+@mixin hover-gradient-background {
+	background: rgb(14, 17, 32);
+	background: linear-gradient(
+		90deg,
+		$dark-primary 65%,
+		$primary 100%,
+		$secondary 0%
+	);
+}
+
 @mixin transition-All {
-	transition: all 15ms;
+	transition: all 1s ease-in-out;
 }
 
 @function set-font-color($background-color) {

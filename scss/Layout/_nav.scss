@@ -7,18 +7,53 @@
 			margin: 0;
 			padding: 0;
 		}
-		ul {
+
+		button {
+			margin-right: 1rem;
+			border: 2px solid $white;
+		}
+
+		#nav-logo {
+			margin-left: 0.5rem;
+			height: 50px;
+			width: 50px;
+		}
+
+		#collapsibleNavId {
 			margin-top: 0;
 			padding-top: 0;
-			li {
+		}
+
+		.navbar-toggler-icon {
+			color: $white;
+		}
+
+		.navbar-nav {
+			margin-top: 0;
+			padding-top: 0;
+
+			.nav-item {
 				@include gradient-background;
+				@include transition-All;
 				border-bottom: 1px solid $white;
-				padding: 0.2rem 0.5rem;
-				margin-top: 0;
+				padding: 0.4rem 0.5rem;
+				margin: 0;
 				width: 100%;
 
 				&:hover {
-					background-color: darken($color: #000000, $amount: 5%);
+					@include hover-gradient-background;
+				}
+
+				.nav-link {
+					border-bottom: none;
+
+					&.active {
+						border-bottom: none;
+					}
+
+					&:hover {
+						border-bottom: none;
+					}
 				}
 			}
 		}
@@ -36,13 +71,24 @@
 
 	li {
 		padding: 0 0.5rem;
+		margin: 0 0.5rem;
 	}
 
 	.nav-item {
 		.nav-link {
+			border-bottom: 3px solid transparent;
 			color: $white;
 			text-transform: uppercase;
 			font-weight: 600;
+			@include transition-All;
+
+			&.active {
+				border-bottom: 3px solid $white;
+			}
+
+			&:hover {
+				border-bottom: 3px solid $white;
+			}
 		}
 	}
 }

@@ -9296,18 +9296,38 @@ textarea.form-control-lg {
       width: 100%;
       margin: 0;
       padding: 0; }
-    #main-navbar ul {
+    #main-navbar button {
+      margin-right: 1rem;
+      border: 2px solid #fff; }
+    #main-navbar #nav-logo {
+      margin-left: 0.5rem;
+      height: 50px;
+      width: 50px; }
+    #main-navbar #collapsibleNavId {
       margin-top: 0;
       padding-top: 0; }
-      #main-navbar ul li {
+    #main-navbar .navbar-toggler-icon {
+      color: #fff; }
+    #main-navbar .navbar-nav {
+      margin-top: 0;
+      padding-top: 0; }
+      #main-navbar .navbar-nav .nav-item {
         background: #0e1120;
         background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%);
+        transition: all 1s ease-in-out;
         border-bottom: 1px solid #fff;
-        padding: 0.2rem 0.5rem;
-        margin-top: 0;
+        padding: 0.4rem 0.5rem;
+        margin: 0;
         width: 100%; }
-        #main-navbar ul li:hover {
-          background-color: black; } }
+        #main-navbar .navbar-nav .nav-item:hover {
+          background: #0e1120;
+          background: linear-gradient(90deg, #0e1120 65%, #1f64c1 100%, #149ea2 0%); }
+        #main-navbar .navbar-nav .nav-item .nav-link {
+          border-bottom: none; }
+          #main-navbar .navbar-nav .nav-item .nav-link.active {
+            border-bottom: none; }
+          #main-navbar .navbar-nav .nav-item .nav-link:hover {
+            border-bottom: none; } }
   #main-navbar.bg-grad {
     background: #0e1120;
     background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%); }
@@ -9315,11 +9335,18 @@ textarea.form-control-lg {
     width: 80px;
     height: 80px; }
   #main-navbar li {
-    padding: 0 0.5rem; }
+    padding: 0 0.5rem;
+    margin: 0 0.5rem; }
   #main-navbar .nav-item .nav-link {
+    border-bottom: 3px solid transparent;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 600; }
+    font-weight: 600;
+    transition: all 1s ease-in-out; }
+    #main-navbar .nav-item .nav-link.active {
+      border-bottom: 3px solid #fff; }
+    #main-navbar .nav-item .nav-link:hover {
+      border-bottom: 3px solid #fff; }
 
 .btn-rounded {
   position: relative;
@@ -9328,7 +9355,10 @@ textarea.form-control-lg {
   margin: 0;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   width: 12rem;
-  transition: all 15ms; }
+  transition: all 1s ease-in-out; }
+  @media (max-width: 575.98px) {
+    .btn-rounded {
+      display: none; } }
   .btn-rounded #icon {
     display: flex;
     align-items: center;
@@ -9339,7 +9369,8 @@ textarea.form-control-lg {
     height: 2.5rem;
     top: 14%;
     right: 4%;
-    border-radius: 50%; }
+    border-radius: 50%;
+    transition: all 1s ease-in-out; }
     .btn-rounded #icon i {
       color: #fff; }
   .btn-rounded:hover {
