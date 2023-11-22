@@ -3,6 +3,7 @@
    * Copyright 2011-2023 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9337,21 +9338,25 @@ textarea.form-control-lg {
   #main-navbar li {
     padding: 0 0.5rem;
     margin: 0 0.5rem; }
-  #main-navbar .nav-item .nav-link {
-    border-bottom: 3px solid transparent;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 600;
-    transition: all 1s ease-in-out; }
-    #main-navbar .nav-item .nav-link.active {
-      border-bottom: 3px solid #fff; }
-    #main-navbar .nav-item .nav-link:hover {
-      border-bottom: 3px solid #fff; }
+  #main-navbar .nav-item {
+    font-size: 1.05rem; }
+    #main-navbar .nav-item .nav-link {
+      border-bottom: 3px solid transparent;
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      transition: all 1s ease-in-out; }
+      #main-navbar .nav-item .nav-link.active {
+        border-bottom: 3px solid #fff; }
+      #main-navbar .nav-item .nav-link:hover {
+        border-bottom: 3px solid #fff; }
 
 #home.showcase {
   background: #0e1120;
   background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%);
+  font-family: 'Poppins', sans-serif;
   padding-top: 10rem;
+  padding-bottom: 10rem;
   width: 100%;
   height: 100%; }
   #home.showcase .display-2 {
@@ -9366,7 +9371,8 @@ textarea.form-control-lg {
     font-weight: 700; }
   .display-2-description {
     margin: 0.5rem 0 1.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 400;
     display: block; }
 
 .btn-rounded {
