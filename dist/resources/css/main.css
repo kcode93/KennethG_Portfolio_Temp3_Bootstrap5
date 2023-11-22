@@ -9340,13 +9340,34 @@ textarea.form-control-lg {
   #main-navbar .nav-item .nav-link {
     border-bottom: 3px solid transparent;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: 600;
     transition: all 1s ease-in-out; }
     #main-navbar .nav-item .nav-link.active {
       border-bottom: 3px solid #fff; }
     #main-navbar .nav-item .nav-link:hover {
       border-bottom: 3px solid #fff; }
+
+#home.showcase {
+  background: #0e1120;
+  background: linear-gradient(90deg, #0e1120 15%, #1f64c1 45%, #149ea2 71%);
+  padding-top: 10rem;
+  width: 100%;
+  height: 100%; }
+  #home.showcase .display-2 {
+    color: #fff; }
+
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize; }
+  .display-2-intro {
+    margin: 2.5rem 0 1rem 0;
+    display: inline-block;
+    font-weight: 700; }
+  .display-2-description {
+    margin: 0.5rem 0 1.5rem 0;
+    font-size: 1.5rem;
+    display: block; }
 
 .btn-rounded {
   position: relative;

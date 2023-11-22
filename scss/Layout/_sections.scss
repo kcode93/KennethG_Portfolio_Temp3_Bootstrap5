@@ -1,0 +1,12 @@
+#home {
+	&.showcase {
+		@include gradient-background;
+		padding-top: 10rem;
+		width: 100%;
+		height: 100%;
+
+		.display-2 {
+			color: $white;
+		}
+	}
+}

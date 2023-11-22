@@ -78,7 +78,7 @@
 		.nav-link {
 			border-bottom: 3px solid transparent;
 			color: $white;
-			text-transform: uppercase;
+			text-transform: capitalize;
 			font-weight: 600;
 			@include transition-All;
 
