@@ -11,4 +11,20 @@
 			color: $white;
 		}
 	}
+
+	.showcase-illustration {
+		.video-box {
+			position: relative;
+			a {
+				position: absolute;
+				top: 45%;
+				right: 40%;
+				span {
+					i {
+						font-size: 6rem;
+					}
+				}
+			}
+		}
+	}
 }
