@@ -9366,8 +9366,9 @@ textarea.form-control-lg {
   position: relative; }
   #home .showcase-illustration .video-box a {
     position: absolute;
-    top: 45%;
-    right: 40%; }
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
     #home .showcase-illustration .video-box a span i {
       font-size: 6rem; }
 
