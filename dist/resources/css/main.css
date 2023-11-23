@@ -9371,6 +9371,19 @@ textarea.form-control-lg {
     transform: translate(-50%, -50%); }
     #home .showcase-illustration .video-box a span i {
       font-size: 6rem; }
+  #home .showcase-illustration .video-box .border-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 6rem;
+    border: 0.3rem solid #fff;
+    border-radius: 50%;
+    animation: pulse-border 2s linear infinite; }
+    #home .showcase-illustration .video-box .border-animation-border-1 {
+      animation-delay: 1s; }
+    #home .showcase-illustration .video-box .border-animation-border-2 {
+      animation-delay: 1.5s; }
 
 .display-2 {
   margin-bottom: 1rem;
@@ -9417,3 +9430,11 @@ textarea.form-control-lg {
     font-weight: bold; }
     .btn-rounded:hover #icon {
       background-color: #149ea2; }
+
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(1.5);
+    opacity: 0; } }
