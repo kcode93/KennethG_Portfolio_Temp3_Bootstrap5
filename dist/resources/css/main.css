@@ -9358,7 +9358,7 @@ textarea.form-control-lg {
   background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%);
   font-family: 'Poppins', sans-serif;
   padding-top: 10rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   width: 100%;
   height: 100%; }
   @media (max-width: 575.98px) {
@@ -9390,6 +9390,10 @@ textarea.form-control-lg {
       animation-delay: 1s; }
     #home .showcase-illustration .video-box .border-animation-border-2 {
       animation-delay: 1.5s; }
+
+#companies {
+  padding: 2rem;
+  text-align: center; }
 
 .display-2 {
   margin-bottom: 1rem;
@@ -9444,3 +9448,22 @@ textarea.form-control-lg {
   100% {
     transform: scale(1.5);
     opacity: 0; } }
+
+.decor-line {
+  margin-bottom: 2rem; }
+
+.decor-line::before {
+  content: '';
+  width: 40%;
+  height: 0.3rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #1f65c2; }
+
+.decor-line::after {
+  content: '';
+  width: 25%;
+  height: 0.3rem;
+  display: block;
+  margin: 0.5rem auto;
+  background-color: #1f65c2; }

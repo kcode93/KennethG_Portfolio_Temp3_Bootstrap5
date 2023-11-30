@@ -1,0 +1,21 @@
+.decor-line {
+	margin-bottom: 2rem;
+}
+
+.decor-line::before {
+	content: '';
+	width: 40%;
+	height: 0.3rem;
+	display: block;
+	margin: 0 auto;
+	background-color: $primary;
+}
+
+.decor-line::after {
+	content: '';
+	width: 25%;
+	height: 0.3rem;
+	display: block;
+	margin: 0.5rem auto;
+	background-color: $primary;
+}
