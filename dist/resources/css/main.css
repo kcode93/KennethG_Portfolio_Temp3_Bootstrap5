@@ -9312,11 +9312,13 @@ textarea.form-control-lg {
     #main-navbar .navbar-nav {
       margin-top: 0;
       padding-top: 0; }
+      #main-navbar .navbar-nav:first-child {
+        border-top: 2.5px solid #fff; }
       #main-navbar .navbar-nav .nav-item {
         background: #0e1120;
         background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%);
         transition: all 1s ease-in-out;
-        border-bottom: 1px solid #fff;
+        border-bottom: 2.5px solid #fff;
         padding: 0.4rem 0.5rem;
         margin: 0;
         width: 100%; }
@@ -9356,9 +9358,13 @@ textarea.form-control-lg {
   background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%);
   font-family: 'Poppins', sans-serif;
   padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
   width: 100%;
   height: 100%; }
+  @media (max-width: 575.98px) {
+    #home.showcase {
+      padding-top: 1rem;
+      text-align: center; } }
   #home.showcase .display-2 {
     color: #fff; }
 
