@@ -9406,9 +9406,21 @@ textarea.form-control-lg {
       animation-delay: 1.5s; }
 
 #companies {
-  padding: 2rem;
+  padding: 0 0 5rem 0;
   text-align: center;
   margin-top: 0; }
+  #companies .companies_logo-box {
+    max-width: 100%;
+    height: 5rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative; }
+    #companies .companies_logo-box img {
+      height: 100%; }
+      #companies .companies_logo-box img:hover {
+        filter: grayscale(100);
+        cursor: pointer; }
 
 .display-2 {
   margin-bottom: 1rem;
