@@ -9435,6 +9435,10 @@ textarea.form-control-lg {
     font-weight: 400;
     display: block; }
 
+.display-3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder; }
+
 .btn-rounded {
   position: relative;
   padding: 0.9rem 4.375rem 0.9rem 0.5rem;
@@ -9494,3 +9498,7 @@ textarea.form-control-lg {
   display: block;
   margin: 0.5rem auto;
   background-color: #1f65c2; }
+
+.border-right {
+  border-right: 0.2rem solid #1f65c2;
+  height: 100%; }
