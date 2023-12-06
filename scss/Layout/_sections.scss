@@ -92,3 +92,13 @@
 		}
 	}
 }
+
+#services {
+	padding: 1.5rem 0;
+	position: relative;
+	.service-details-content {
+		.icon {
+			color: $primary;
+		}
+	}
+}

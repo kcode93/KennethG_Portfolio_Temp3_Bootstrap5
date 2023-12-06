@@ -9422,6 +9422,12 @@ textarea.form-control-lg {
         filter: grayscale(100);
         cursor: pointer; }
 
+#services {
+  padding: 1.5rem 0;
+  position: relative; }
+  #services .service-details-content .icon {
+    color: #1f65c2; }
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize; }
@@ -9500,5 +9506,5 @@ textarea.form-control-lg {
   background-color: #1f65c2; }
 
 .border-right {
-  border-right: 0.2rem solid #1f65c2;
+  border-right: 0.4rem solid #1f65c2;
   height: 100%; }
