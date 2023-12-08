@@ -96,6 +96,7 @@
 #services {
 	@include media-breakpoint-down(sm) {
 		padding: 0.5rem 0.5rem;
+
 		#service-title {
 			margin-bottom: 0;
 			margin-top: 0;
@@ -118,6 +119,22 @@
 	.service-details-content {
 		.icon {
 			color: $primary;
+		}
+	}
+}
+
+#testimonials {
+	&.testimonials {
+		position: relative;
+		padding: 3rem 0.5rem 0rem 0.5rem;
+		@include gradient-background;
+		color: $white;
+
+		.decor-line {
+			&:before,
+			&:after {
+				background-color: $white;
+			}
 		}
 	}
 }

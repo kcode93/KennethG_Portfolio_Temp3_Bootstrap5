@@ -9441,6 +9441,15 @@ textarea.form-control-lg {
   #services .service-details-content .icon {
     color: #1f65c2; }
 
+#testimonials.testimonials {
+  position: relative;
+  padding: 3rem 0.5rem 0rem 0.5rem;
+  background: #0e1120;
+  background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%);
+  color: #fff; }
+  #testimonials.testimonials .decor-line:before, #testimonials.testimonials .decor-line:after {
+    background-color: #fff; }
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize; }
