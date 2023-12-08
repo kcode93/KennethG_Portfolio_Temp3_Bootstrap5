@@ -94,6 +94,25 @@
 }
 
 #services {
+	@include media-breakpoint-down(sm) {
+		padding: 0.5rem 0.5rem;
+		#service-title {
+			margin-bottom: 0;
+			margin-top: 0;
+			padding: 0 0;
+		}
+
+		#trust {
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+		.display-3 {
+			margin-top: 0rem;
+			margin-bottom: 0rem;
+		}
+	}
+
 	padding: 1.5rem 0;
 	position: relative;
 	.service-details-content {
