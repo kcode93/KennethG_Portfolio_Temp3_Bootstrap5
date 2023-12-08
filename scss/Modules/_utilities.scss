@@ -24,3 +24,7 @@
 	border-right: 0.4rem solid $primary;
 	height: 100%;
 }
+
+.bg-grad {
+	@include gradient-background;
+}

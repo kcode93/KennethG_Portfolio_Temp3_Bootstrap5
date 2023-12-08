@@ -9444,6 +9444,7 @@ textarea.form-control-lg {
 #testimonials.testimonials {
   position: relative;
   padding: 25rem 0.5rem 25rem 0.5rem;
+  min-height: 60rem;
   background: #0e1120;
   background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%);
   color: #fff; }
@@ -9462,6 +9463,9 @@ textarea.form-control-lg {
       left: 0;
       right: 0;
       bottom: 0; }
+  #testimonials.testimonials #carouselExampleCaptions {
+    padding: 5rem 0;
+    border: red 2px solid; }
 
 .display-2 {
   margin-bottom: 1rem;
@@ -9543,3 +9547,7 @@ textarea.form-control-lg {
 .border-right {
   border-right: 0.4rem solid #1f65c2;
   height: 100%; }
+
+.bg-grad {
+  background: #0e1120;
+  background: linear-gradient(90deg, #0e1120 15%, #1f65c2 45%, #149ea2 71%); }

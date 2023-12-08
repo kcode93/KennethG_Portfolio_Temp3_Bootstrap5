@@ -116,6 +116,7 @@
 
 	padding: 1.5rem 0;
 	position: relative;
+	//@include gradient-background;
 	.service-details-content {
 		.icon {
 			color: $primary;
@@ -127,6 +128,7 @@
 	&.testimonials {
 		position: relative;
 		padding: 25rem 0.5rem 25rem 0.5rem;
+		min-height: 60rem;
 		@include gradient-background;
 		color: $white;
 
@@ -154,6 +156,11 @@
 				right: 0;
 				bottom: 0;
 			}
+		}
+
+		#carouselExampleCaptions {
+			padding: 5rem 0;
+			border: red 2px solid;
 		}
 	}
 }
