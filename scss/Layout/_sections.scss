@@ -160,7 +160,49 @@
 
 		#carouselExampleCaptions {
 			padding: 5rem 0;
-			border: red 2px solid;
+			text-align: center;
+
+			.btn {
+				@include transition-All;
+				&:hover {
+					background-color: $dark-primary;
+				}
+			}
+
+			.testimonials_name {
+				text-align: center;
+
+				h3 {
+					font-weight: bold;
+				}
+			}
+
+			.testimonials_card {
+				display: flex;
+				background-color: $dark-primary;
+				border: 0.3rem solid $white;
+				padding: 4rem 2rem;
+				border-radius: 0.625rem;
+				height: 10rem;
+				text-align: center;
+				align-items: center;
+
+				i {
+					font-size: 1.5rem;
+				}
+
+				.ratings {
+					margin-top: 0.5rem;
+				}
+
+				&-picture {
+					width: 10rem;
+					height: 10rem;
+					border-radius: 50%;
+					margin: 0.5rem auto;
+					border: 0.2rem solid $white;
+				}
+			}
 		}
 	}
 }
