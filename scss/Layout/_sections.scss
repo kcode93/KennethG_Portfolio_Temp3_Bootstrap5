@@ -244,3 +244,11 @@
 		}
 	}
 }
+
+#faq {
+	&.faq {
+		.accordion-item {
+			border: 4px solid $primary;
+		}
+	}
+}
