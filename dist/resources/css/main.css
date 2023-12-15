@@ -9629,6 +9629,15 @@ textarea.form-control-lg {
         text-decoration: none;
         color: #fff;
         cursor: pointer; }
+  #footer.footer .footer-sm .container p {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold; }
+  #footer.footer .footer-sm .container a {
+    color: #fff;
+    padding: 0.5rem 0.2rem; }
+    #footer.footer .footer-sm .container a:hover {
+      color: rgba(255, 255, 255, 0.5); }
 
 .display-2 {
   margin-bottom: 1rem;
