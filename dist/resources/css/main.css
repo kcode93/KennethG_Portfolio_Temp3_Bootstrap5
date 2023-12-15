@@ -9562,6 +9562,35 @@ textarea.form-control-lg {
       visibility: visible;
       cursor: pointer; }
 
+#contact.get-started {
+  padding: 4rem 0;
+  background-color: #faeded; }
+
+#contact .cta-info {
+  padding: 3rem;
+  margin: 1rem 0; }
+  #contact .cta-info_list {
+    position: relative;
+    list-style-type: none;
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-right: 0.5rem; }
+    #contact .cta-info_list li::before {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f00c';
+      font-weight: 600;
+      margin-right: 0.5rem;
+      font-size: 1.2rem; }
+
+#contact .form {
+  padding: 3rem; }
+  #contact .form button {
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold; }
+
 .display-2 {
   margin-bottom: 1rem;
   text-transform: capitalize; }
