@@ -9533,7 +9533,8 @@ textarea.form-control-lg {
     width: 100%;
     height: 18.5rem;
     overflow: hidden;
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    border: #149ea2 0.5rem solid; }
     #portfolio.portfolio .portfolio-box img {
       width: 100%;
       height: 100%; }
@@ -9543,7 +9544,10 @@ textarea.form-control-lg {
       height: 100%;
       position: absolute;
       top: 0;
-      color: #fff; }
+      color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 1s ease-in-out; }
       #portfolio.portfolio .portfolio-box .portfolio-info .caption {
         text-align: center;
         text-transform: capitalize;
@@ -9553,6 +9557,10 @@ textarea.form-control-lg {
         transform: translate(-50%, -50%); }
         #portfolio.portfolio .portfolio-box .portfolio-info .caption h4, #portfolio.portfolio .portfolio-box .portfolio-info .caption .h4 {
           font-weight: bold; }
+    #portfolio.portfolio .portfolio-box:hover .portfolio-info {
+      opacity: 1;
+      visibility: visible;
+      cursor: pointer; }
 
 .display-2 {
   margin-bottom: 1rem;

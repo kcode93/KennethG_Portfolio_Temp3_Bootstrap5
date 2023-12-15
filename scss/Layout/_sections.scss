@@ -269,6 +269,7 @@
 			height: 18.5rem;
 			overflow: hidden;
 			margin-bottom: 1.5rem;
+			border: $secondary 0.5rem solid;
 
 			img {
 				width: 100%;
@@ -282,7 +283,9 @@
 				position: absolute;
 				top: 0;
 				color: $white;
-
+				opacity: 0;
+				visibility: hidden;
+				@include transition-All;
 				.caption {
 					text-align: center;
 					text-transform: capitalize;
@@ -290,6 +293,14 @@
 					h4 {
 						font-weight: bold;
 					}
+				}
+			}
+
+			&:hover {
+				.portfolio-info {
+					opacity: 1;
+					visibility: visible;
+					cursor: pointer;
 				}
 			}
 		}
