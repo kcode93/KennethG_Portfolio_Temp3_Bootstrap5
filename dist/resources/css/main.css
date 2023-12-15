@@ -9296,7 +9296,8 @@ textarea.form-control-lg {
     #main-navbar .container {
       width: 100%;
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      overflow: hidden; }
     #main-navbar button {
       margin-right: 1rem;
       border: 2px solid #fff; }
@@ -9590,6 +9591,44 @@ textarea.form-control-lg {
     color: white;
     font-size: 2rem;
     font-weight: bold; }
+
+#footer.footer {
+  padding-top: 1rem;
+  background-color: #149ea2; }
+  @media (max-width: 767.98px) {
+    #footer.footer .contact-box {
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center; }
+      #footer.footer .contact-box-info {
+        text-align: center;
+        justify-content: center;
+        align-items: center; }
+        #footer.footer .contact-box-info a {
+          margin: 0 auto; } }
+  #footer.footer #general-info {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  #footer.footer .contact-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #footer.footer .contact-box-icon {
+      padding: 1rem;
+      margin-right: 0.5rem; }
+    #footer.footer .contact-box-info {
+      text-align: start;
+      font-size: 1.5rem;
+      padding: 0.5rem 0.2rem; }
+      #footer.footer .contact-box-info-title {
+        font-weight: bold; }
+      #footer.footer .contact-box-info a {
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer; }
 
 .display-2 {
   margin-bottom: 1rem;

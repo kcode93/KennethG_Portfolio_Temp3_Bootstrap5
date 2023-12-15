@@ -1,0 +1,60 @@
+#footer {
+	&.footer {
+		@include media-breakpoint-down(md) {
+			.contact-box {
+				flex-direction: column;
+				text-align: center;
+				justify-content: center;
+				align-items: center;
+
+				&-info {
+					text-align: center;
+					justify-content: center;
+					align-items: center;
+
+					a {
+						margin: 0 auto;
+					}
+				}
+			}
+		}
+
+		padding-top: 1rem;
+		background-color: rgba($secondary, 6);
+
+		#general-info {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.contact-box {
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&-icon {
+				padding: 1rem;
+				margin-right: 0.5rem;
+			}
+
+			&-info {
+				text-align: start;
+				font-size: 1.5rem;
+				padding: 0.5rem 0.2rem;
+				&-title {
+					font-weight: bold;
+				}
+
+				&-subtitle {
+				}
+
+				a {
+					text-decoration: none;
+					color: $white;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
